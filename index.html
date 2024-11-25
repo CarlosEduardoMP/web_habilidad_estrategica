@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades Estratégicas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #3498db, #8e44ad);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .title {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .highlight {
+            background-color: #f1c40f;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        #quiz {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+        footer {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="title">Habilidades Estratégicas</h1>
+            <p class="subtitle">Desarrollando líderes para el futuro</p>
+            <p class="subtitle">Autor: Carlos Eduardo Morales Perrusquia</p>
+            <p>Más información: 
+                <button id="editLink" onclick="window.open('https://youtu.be/ZuWcbMZW8NA', '_blank');">Video de la presentación</button>
+            </p>
+            
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Definición de Estrategia</h2>
+            <p>La estrategia es el <span class="highlight">conjunto de procedimientos necesarios para llevar a cabo un plan o una tarea</span>. Es más amplia que otros términos como táctica, destreza o método. Implica autodirección y autocontrol, permitiendo la supervisión y evaluación del comportamiento en función de los objetivos establecidos.</p>
+            <p>En el contexto empresarial, la estrategia se refiere a la forma en que una organización define sus objetivos a largo plazo y cómo planea alcanzarlos. Esto incluye la asignación de recursos, la identificación de ventajas competitivas y la adaptación al entorno cambiante.</p>
+        </div>
+
+        <div class="card">
+            <h2>Características del Estratega</h2>
+            <ul id="estratega-list">
+                <li>Examina y comprende el conjunto y los niveles de detalles</li>
+                <li>Va a la profundidad de las cosas</li>
+                <li>Dedica tiempo a analizar y sintetizar información</li>
+                <li>No se aferra a sus planteamientos</li>
+                <li>Lee constantemente</li>
+                <li>Pone a trabajar su mente y juega con las ideas</li>
+                <li>No teme hacer preguntas</li>
+                <li>Se vale tanto de la intuición como de la razón</li>
+                <li>Tiene una mente disciplinada pero flexible</li>
+                <li>Es excelente motivador</li>
+                <li>Mantiene una visión a largo plazo</li>
+                <li>Es capaz de anticipar tendencias y cambios en el entorno</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Importancia del Liderazgo Estratégico</h2>
+            <p>El liderazgo estratégico es crucial para el éxito de una organización. Implica la <span class="highlight">capacidad de anticipar, visualizar, mantener la flexibilidad y otorgar autoridad a otros para generar cambios estratégicos</span> cuando sea necesario. Un líder estratégico eficaz puede influir en el comportamiento humano ante un entorno incierto y motivar a sus seguidores para lograr una visión estratégica.</p>
+            <p>Los líderes estratégicos son fundamentales para:</p>
+            <ul>
+                <li>Definir la dirección y visión de la organización</li>
+                <li>Fomentar una cultura de innovación y adaptabilidad</li>
+                <li>Tomar decisiones críticas en momentos de incertidumbre</li>
+                <li>Alinear los recursos de la organización con sus objetivos estratégicos</li>
+                <li>Inspirar y motivar a los equipos hacia el logro de metas comunes</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Pilares de la Dirección Estratégica</h2>
+            <ol>
+                <li><strong>Pensamiento estratégico:</strong> Es la suma del pensamiento creativo de varios individuos, integrando la intuición y el análisis para aprovechar oportunidades y evitar amenazas. Implica una visión sistémica de la organización y su entorno.</li>
+                <li><strong>Actitud estratégica:</strong> Implica una transformación en la postura de la dirección para adaptarse rápidamente a un entorno cambiante. Requiere flexibilidad mental y disposición para cuestionar el status quo.</li>
+                <li><strong>Intención estratégica:</strong> Es el impulso deliberado de la alta gerencia para influenciar con su liderazgo a todos los miembros de la organización. Se traduce en una visión ambiciosa y motivadora que guía las acciones de toda la empresa.</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>Variables de la Estrategia</h2>
+            <ul>
+                <li><strong>Variable financiera:</strong> Incluye estrategias para incrementar el valor para los accionistas, como el crecimiento de ingresos y la productividad. Abarca la gestión eficiente de recursos financieros y la optimización de la estructura de capital.</li>
+                <li><strong>Variables de los clientes:</strong> Se enfoca en la propuesta de valor para los clientes, incluyendo la mezcla de productos y servicios, la relación con los clientes y la imagen corporativa. Implica entender y satisfacer las necesidades cambiantes del mercado.</li>
+                <li><strong>Variables en los procesos internos:</strong> Abarca actividades críticas como la innovación, la gestión de clientes, las operaciones y los procesos regulatorios y sociales. Busca la eficiencia operativa y la mejora continua de los procesos clave.</li>
+                <li><strong>Variables de crecimiento y aprendizaje:</strong> Se centra en el desarrollo de competencias, habilidades, tecnología y cultura corporativa necesarias para soportar la estrategia organizacional. Incluye la gestión del conocimiento y el fomento de una cultura de aprendizaje continuo.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Implementación de la Estrategia</h2>
+            <p>La implementación efectiva de una estrategia es tan crucial como su formulación. Algunos aspectos clave para una implementación exitosa incluyen:</p>
+            <ul>
+                <li>Comunicación clara y consistente de la estrategia a todos los niveles de la organización</li>
+                <li>Alineación de la estructura organizacional con los objetivos estratégicos</li>
+                <li>Desarrollo de sistemas de control y seguimiento para medir el progreso</li>
+                <li>Fomento de una cultura organizacional que apoye la ejecución de la estrategia</li>
+                <li>Asignación adecuada de recursos para las iniciativas estratégicas clave</li>
+                <li>Flexibilidad para ajustar la estrategia en respuesta a cambios en el entorno</li>
+            </ul>
+        </div>
+
+        <div class="card" id="quiz">
+            <h2>Pon a prueba tus conocimientos</h2>
+            <div id="question-container">
+                <p id="question-text"></p>
+                <div id="answer-buttons"></div>
+            </div>
+            <button id="next-button" style="display:none;">Siguiente</button>
+            <div id="result" style="display:none;"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Habilidades Estratégicas en la Dirección. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Editable link functionality
+        const infoLink = document.getElementById('infoLink');
+        const editLinkBtn = document.getElementById('editLink');
+
+        editLinkBtn.addEventListener('click', () => {
+            const newLink = prompt('Ingrese el nuevo enlace:', infoLink.href);
+            if (newLink) {
+                infoLink.href = newLink;
+                infoLink.textContent = newLink;
+            }
+        });
+
+        // Quiz functionality
+        const questions = [
+            {
+                question: "¿Cuál es uno de los elementos primordiales de las estrategias?",
+                answers: [
+                    { text: "Rigidez en la planificación", correct: false },
+                    { text: "Autodirección y autocontrol", correct: true },
+                    { text: "Evitar la evaluación del comportamiento", correct: false },
+                    { text: "Mantener objetivos fijos sin revisión", correct: false }
+                ]
+            },
+            {
+                question: "¿Qué característica NO es típica de un estratega según el texto?",
+                answers: [
+                    { text: "Examinar y comprender el conjunto y los niveles de detalles", correct: false },
+                    { text: "Aferrarse a sus planteamientos iniciales", correct: true },
+                    { text: "Dedicar tiempo a analizar y sintetizar información", correct: false },
+                    { text: "Valerse tanto de la intuición como de la razón", correct: false }
+                ]
+            },
+            {
+                question: "¿Cuál es uno de los pilares de la dirección estratégica?",
+                answers: [
+                    { text: "Pensamiento lineal", correct: false },
+                    { text: "Actitud pasiva", correct: false },
+                    { text: "Intención estratégica", correct: true },
+                    { text: "Conformidad organizacional", correct: false }
+                ]
+            },
+            {
+                question: "¿Qué implica el liderazgo estratégico eficaz?",
+                answers: [
+                    { text: "Mantener siempre el mismo plan sin cambios", correct: false },
+                    { text: "Evitar delegar autoridad a otros", correct: false },
+                    { text: "Anticipar y visualizar cambios futuros", correct: true },
+                    { text: "Centrarse únicamente en el corto plazo", correct: false }
+                ]
+            },
+            {
+                question: "¿Cuál de las siguientes NO es una variable de la estrategia mencionada en el texto?",
+                answers: [
+                    { text: "Variable financiera", correct: false },
+                    { text: "Variables de los clientes", correct: false },
+                    { text: "Variables en los procesos internos", correct: false },
+                    { text: "Variables de marketing digital", correct: true }
+                ]
+            },
+            {
+                question: "¿Qué aspecto es crucial para la implementación efectiva de una estrategia?",
+                answers: [
+                    { text: "Mantener la estrategia en secreto", correct: false },
+                    { text: "Comunicación clara y consistente", correct: true },
+                    { text: "Evitar cambios en la estructura organizacional", correct: false },
+                    { text: "Centrarse solo en los resultados financieros", correct: false }
+                ]
+            },
+            {
+                question: "¿Cuál es un beneficio clave del pensamiento estratégico?",
+                answers: [
+                    { text: "Eliminar toda intuición en la toma de decisiones", correct: false },
+                    { text: "Mantener una visión a corto plazo", correct: false },
+                    { text: "Integrar la intuición y el análisis", correct: true },
+                    { text: "Evitar cambios en la organización", correct: false }
+                ]
+            },
+            {
+                question: "¿Qué implica la actitud estratégica?",
+                answers: [
+                    { text: "Mantener siempre el mismo enfoque", correct: false },
+                    { text: "Resistencia al cambio", correct: false },
+                    { text: "Adaptación rápida a un entorno cambiante", correct: true },
+                    { text: "Ignorar las tendencias del mercado", correct: false }
+                ]
+            },
+            {
+                question: "¿Cuál es un aspecto importante de las variables de crecimiento y aprendizaje?",
+                answers: [
+                    { text: "Enfocarse solo en la tecnología", correct: false },
+                    { text: "Ignorar el desarrollo de competencias", correct: false },
+                    { text: "Fomentar una cultura de aprendizaje continuo", correct: true },
+                    { text: "Evitar cambios en la cultura corporativa", correct: false }
+                ]
+            },
+            {
+                question: "¿Qué caracteriza a un buen líder estratégico?",
+                answers: [
+                    { text: "Tomar decisiones sin consultar a nadie", correct: false },
+                    { text: "Evitar riesgos a toda costa", correct: false },
+                    { text: "Capacidad para anticipar tendencias", correct: true },
+                    { text: "Centrarse solo en el presente", correct: false }
+                ]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        const questionContainer = document.getElementById('question-container');
+        const questionElement = document.getElementById('question-text');
+        const answerButtonsElement = document.getElementById('answer-buttons');
+        const nextButton = document.getElementById('next-button');
+        const resultElement = document.getElementById('result');
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = 'Siguiente';
+            showQuestion(questions[currentQuestionIndex]);
+        }
+
+        function showQuestion(question) {
+            questionElement.innerText = question.question;
+            resetAnswerButtons();
+            question.answers.forEach(answer => {
+                const button = document.createElement('button');
+                button.innerText = answer.text;
+                button.classList.add('answer-btn');
+                button.addEventListener('click', () => selectAnswer(answer));
+                answerButtonsElement.appendChild(button);
+            });
+        }
+
+        function resetAnswerButtons() {
+            nextButton.style.display = 'none';
+            while (answerButtonsElement.firstChild) {
+                answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+            }
+        }
+
+        function selectAnswer(answer) {
+            const correct = answer.correct;
+            if (correct) {
+                score++;
+            }
+            Array.from(answerButtonsElement.children).forEach(button => {
+                button.disabled = true;
+                if (button.innerText === answer.text) {
+                    button.style.backgroundColor = correct ? '#2ecc71' : '#e74c3c';
+                }
+            });
+            nextButton.style.display = 'block';
+        }
+
+        nextButton.addEventListener('click', () => {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion(questions[currentQuestionIndex]);
+            } else {
+                showResult();
+            }
+        });
+
+        function showResult() {
+            resetAnswerButtons();
+            questionElement.innerText = `¡Has completado el cuestionario!`;
+            resultElement.innerText = `Tu puntuación es: ${score} de ${questions.length}`;
+            resultElement.style.display = 'block';
+            nextButton.innerHTML = 'Reiniciar';
+            nextButton.style.display = 'block';
+            nextButton.addEventListener('click', startQuiz);
+        }
+
+        startQuiz();
+    </script>
+</body>
+</html>
